@@ -579,28 +579,28 @@ def main():
 {Fore.CYAN}Examples:{Style.RESET_ALL}
 
   # Directory scan (basic)
-  python webrecon.py -u https://example.com -d
+  python3 recon.py -u https://example.com -d
 
   # Directory scan (advanced)
-  python webrecon.py -u https://example.com -d -t 50 -x php,html,txt
+  python3 recon.py -u https://example.com -d -t 50 -x php,html,txt
 
   # Subdomain scan with IP resolve
-  python webrecon.py -u example.com -s
+  python3 recon.py -u example.com -s
 
   # Vulnerability scan
-  python webrecon.py -u https://example.com -V
+  python3 recon.py -u https://example.com -V
 
   # Full scan with custom wordlist
-  python webrecon.py -u https://example.com -d -s -V -w custom.txt
+  python3 recon.py -u https://example.com -d -s -V -w custom.txt
 
   # Stealth mode (slow + delay)
-  python webrecon.py -u https://example.com -d -t 5 --delay 1
+  python3 recon.py -u https://example.com -d -t 5 --delay 1
 
   # Use proxy
-  python webrecon.py -u https://example.com -d --proxy http://127.0.0.1:8080
+  python3 recon.py -u https://example.com -d --proxy http://127.0.0.1:8080
 
   # Export results
-  python webrecon.py -u https://example.com -d -o results.json
+  python3 recon.py -u https://example.com -d -o results.json
         """
     )
     
