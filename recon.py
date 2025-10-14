@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-WebRecon Pro v2.0 - Advanced Web Security Scanner
+EthicalScan v2.0 - Advanced Web Security Scanner
 Gobuster + Dirb + Nikto + Subfinder combined
 Professional penetration testing tool
 """
