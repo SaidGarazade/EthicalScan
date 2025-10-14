@@ -1,0 +1,11 @@
+Requirements
+Python 3.8 or higher
+Recommended: virtual environment
+Required packages (listed in requirements.txt):
+aiohttp
+beautifulsoup4
+tqdm
+requests
+To install packages on Linux:
+
+python3 -m pip install -r requirements.txt
