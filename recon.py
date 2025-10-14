@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 EthicalScan v2.0 - Advanced Web Security Scanner
-Gobuster + Dirb + Nikto + Subfinder combined
 Professional penetration testing tool
 """
 
@@ -87,7 +86,7 @@ class WebReconPro:
     def print_banner(self):
         banner = f"""
 {Fore.CYAN}╔═══════════════════════════════════════════════════════════════╗
-║                WebRecon Pro v2.0 - ADVANCED                   ║
+║               EthicalScan v2.0 - ADVANCED                   ║
 ║          Professional Web Security Scanner                    ║
 ║   Directory • Files • Subdomains • Vulnerabilities           ║
 ║   WAF Bypass • Multi-threading • Proxy Support               ║
