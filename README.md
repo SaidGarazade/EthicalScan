@@ -1,5 +1,4 @@
-# Recon-Attack-Tool
-
+# EthicalScan 
 
 ## 💻 Usage Examples
 
