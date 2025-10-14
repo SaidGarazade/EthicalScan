@@ -1,7 +1,6 @@
 # Recon-Attack-Tool
 
 
-
 ## 💻 Usage Examples
 
 ### Basic Directory Scan
@@ -24,7 +23,6 @@ python3 recon.py -u https://example.com -V
 Run all scan types with a custom wordlist:
 python3 recon.py -u https://example.com -d -s -V -w custom.txt
 
-
 ### Stealth Mode
 Slow scan with delays to avoid detection:
 python3 recon.py -u https://example.com -d -t 5 --delay 1
@@ -36,3 +34,9 @@ python3 recon.py -u https://example.com -d --proxy http://127.0.0.1:8080
 ### Export Results
 Save scan results to a JSON file:
 python3 recon.py -u https://example.com -d -o results.json
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Contact / Author
+Maintained By: EthicalScan / Said Garazade
+If you have questions or feature requests, please open an issue in this repository.
