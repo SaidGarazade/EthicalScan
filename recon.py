@@ -553,7 +553,7 @@ class WebReconPro:
             
             elif format == 'txt':
                 with open(filename, 'w', encoding='utf-8') as f:
-                    f.write(f"WebRecon Pro v2.0 - Scan Results\n")
+                    f.write(f"EthicalScan v2.0 - Scan Results\n")
                     f.write(f"{'='*80}\n")
                     f.write(f"Target: {self.target}\n")
                     f.write(f"Date: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
@@ -572,7 +572,7 @@ class WebReconPro:
 
 def main():
     parser = argparse.ArgumentParser(
-        description='WebRecon Pro v2.0 - Advanced Web Security Scanner',
+        description='EthicalScan v2.0 - Advanced Web Security Scanner',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=f"""
 {Fore.CYAN}Examples:{Style.RESET_ALL}
