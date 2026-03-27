@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 EthicalScan v2.0 - Advanced Web Security Scanner
-Professional penetration testing tool
+Professional penetration testing tool by SaidGarazade
 """
 
 import requests
